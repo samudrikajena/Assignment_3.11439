@@ -1,0 +1,22 @@
+# ASSIGNMENT 3 : Task 2.1:
+
+Write a function so that the columns of the output matrix are powers of the input vector.
+
+The order of the powers is determined by the increasing boolean argument. Specifically, when
+increasing is False, the i-th output column is the input vector raised element-wise to the power
+of N - i - 1.
+
+## HINT: Such a matrix with a geometric progression in each row is named for Alexandre-
+Theophile Vandermonde.
+
+
+## NOTE: Please refer README.md file to get instruction to run the program
+
+### Code: 
+
+		import numpy as np #importing numpy library
+		np.vander(np.array([3,5,3,4]), increasing = True)
+	
+
+### Output Reference: 
+	screenshot_ass3_task2.1.png

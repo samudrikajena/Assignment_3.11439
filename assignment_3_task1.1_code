@@ -1,0 +1,20 @@
+# ASSIGNMENT 3 : Task 1.1:
+
+Write a function to compute 5/0 and use try/except to catch the exceptions.
+
+## NOTE: Please refer README.md file to get instruction to run the program
+
+### Code: 
+
+	#compute function which uses exception handling block to handle errors
+	def compute():
+		try:
+			num=5/0
+			print("Result of 5/0 is:", num)
+		except ZeroDivisionError:
+			print("Number can not be divided by zero")
+
+	compute() #Calling funcion
+
+### Output Reference: 
+	screenshot_ass3_task1.1.png
